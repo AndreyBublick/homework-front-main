@@ -42,9 +42,9 @@ export const HW4 = () => {
                 {texts.map((el, index) => {
                     return <>
 
-                        {index % 2 ? <li key={index} id={`hw04-task-${index}`} className={s.chetNechet}>
+                        {index % 2 ? <li key={index} id={`hw04-task-${index}`}>
                             {el}
-                        </li> : <li key={index} id={`hw04-task-${index}`}>
+                        </li> : <li key={index} id={`hw04-task-${index}`} className={s.chetNechet}>
                             {el}
                         </li>}
                     </>
